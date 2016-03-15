@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.costTextField.text = "Yey! We're finally writing code"
+        self.costTextField.text = "Enter meal cost"
     }
     
     override func didReceiveMemoryWarning() {
