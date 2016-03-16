@@ -12,7 +12,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var mealCost: Float?
-    var tipPercent: Float = 20.0
+    var tipPercent: Float = 18.0
     
     func finalCost() -> Float {
         return mealCost! + tipPercent / 100.0 * mealCost!
